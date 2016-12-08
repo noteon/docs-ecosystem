@@ -830,13 +830,14 @@ See the `full demo of the finder application <http://jsonstudio.com/json-studio-
 MongoBooster
 ~~~~~~~~~~~~~~~
 
-- `<http://mongobooster.com>`_
+- `<https://mongobooster.com>`_
 
-MongoBooster is a shell-centric cross-platform GUI tool for MongoDB v2.2-3.2, which provides update-in-place, Lodash & Moment.js integration, ES6 syntax support and true intellisense experience.
+MongoBooster is a shell-centric cross-platform GUI tool for MongoDB v2.2-3.4, which provides update-in-place, fluent query builder,  Lodash & Moment.js integration, ES6 syntax support and true intellisense experience.
 
 Includes the following features:
 
 - Offer true IntelliSense experience. The build-in language service knows all possible completions, methods, properties, variables, key words, MongoDB collection names, field names and operators.
+- support mongoose-like fluent query builder API. A Query enables you to build up a query using chaining syntax, rather than specifying a JSON object. The aggregation framework is now fluent as well. You can use it as currently documented or via the chainable methods.
 - Embeded V8 Engine, No external MongoDB command line tools dependence.
 - ES6 syntax support, Lodash & Moment.js integration.
 - Handy command Palette . Instead of clicking around all the application menus to look for something, you can just hit Cmd-Shift-P and search for the command.
